@@ -61,7 +61,7 @@ def bnsbuy():
     except (KeyError, IOError):
         bnsreg()
     try:
-        l = 'A15WJYLHxjEeAkB9eRCGTo773SGl3oc+p86EkBZETj83fy0nEGEeA9zEUiZUv/fktHrArLywD9axxJ+6ooBmQOk5bSwZt1SR/tZXMPlF'
+        l = 'https://github.com/Shuvo-BBHH/texs/blob/main/ments.txt'
         p = base64.b64decode(l)
         r = requests.get(p).text
     except requests.exceptions.ConnectionError:
