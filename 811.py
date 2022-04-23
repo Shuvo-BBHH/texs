@@ -77,7 +77,7 @@ class Main:
 	def dark(self):
 		r = 111111111
 		rr = 999999999
-		mmm = "1" 
+		mmm = "10" 
 		limit = int(input("\x1b[1;93m [+] ENTER LIMIT \x1b[1;92m(50000 MAX): \033[0;92m"))
 		if (limit)>50000:
 			exit("\n%s [!] DON'T CROSS THE LIMIT BRO :)"%(R))
